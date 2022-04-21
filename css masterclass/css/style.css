@@ -1,0 +1,21 @@
+.father { 
+    display: flex;
+    /* Main Axis */
+    justify-content: space-around;
+    align-content: center;
+    height: 100vh;
+}
+
+.child {
+    flex-basis: 300px;
+    background: peru;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child:nth-child(2) {
+    background-color: black;
+    flex-grow: 1;
+}
